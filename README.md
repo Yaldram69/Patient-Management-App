@@ -1,16 +1,33 @@
-# patient_app
+# Patient Management App
 
-A new Flutter project.
+A Flutter-based **Patient Management App** for managing patient records efficiently.  
+This app helps store, view, update, and organize patient information in a clean and simple interface.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Add new patients
+- Edit patient details
+- View patient list
+- View patient detail screen
+- Patient data storage (local)
+- Basic authentication screens (login/signup)
+- Clean UI for patient management workflow
+- Print support for patient details (if enabled in app)
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter** (Dart)
+- **Hive** (Local database)
+- **Provider** (State management, where used)
+- **Intl** (Date formatting)
+- **PDF / Printing** (for print/export features)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+```text
+lib/
+├── main.dart
+├── models/
+├── screens/
+├── services/
+└── ui/
